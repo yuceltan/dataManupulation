@@ -13,3 +13,9 @@ print(sentence)
 #exo4
 amount = 1.3
 print(float(amount))
+
+#exo5
+a= 1
+b= 2-1
+c= 10-9
+bool(a==b==c)
