@@ -19,3 +19,6 @@ a= 1
 b= 2-1
 c= 10-9
 bool(a==b==c)
+
+#exo6
+myfirst_Name = 'Mario'
