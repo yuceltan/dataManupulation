@@ -84,3 +84,20 @@ print(False or (0 != 0 or True)) # Should print True
 #exo4
 print(not ("testing" == "testing" and "Mario" == "Cool Guy")) # Should print True
 
+#exo5
+firstName = "Mario"
+lastName = "Rossi"
+
+sentence =  firstName + lastName
+
+print(sentence) # Should print "Mario Rossi"
+
+#exo6
+brands = ["Adidas", "Nike"]
+
+print("Nike" in brands) # Should print True
+
+#exo7
+brands = ["Adidas", "Nike"]
+
+print("Reebok" not in brands) # Should print True
