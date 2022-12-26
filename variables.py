@@ -55,6 +55,7 @@ print(c.lower())
 question = 'How are you' #change o in e
 print(question.replace('a','e'))
 age_question = 'How old are you?' #use the correct method to create a string for each word
+print(age_question.split(' '))
 print(a, b, c, question, age_question)
 
 #exo12
