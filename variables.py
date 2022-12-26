@@ -22,3 +22,35 @@ bool(a==b==c)
 
 #exo6
 myfirst_Name = 'Mario'
+
+#exo7
+"Hi, my name is John Doe"
+'python'
+
+#exo8
+a= 2
+b= 3
+c= 10
+a + b
+print(a,b,c)
+
+#exo9
+
+
+#exo10
+a= 'strong'
+b= 'weak'
+c= 'Algeria'
+print(len(a))
+print(len(b))
+print(len(c))
+
+#exo11
+a = 'hello' #capitalize
+b = 'tom' #uppercase
+c = 'LAURA' #lowercase
+question = 'How are you' #change o in e
+age_question = 'How old are you?' #use the correct method to create a string for each word
+print(a, b, c, question, age_question)
+
+#exo12
