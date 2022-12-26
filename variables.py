@@ -35,7 +35,12 @@ a + b
 print(a,b,c)
 
 #exo9
-
+a = 12
+b = 'Hello'
+c= a
+a=b
+b=c
+print(a, b)
 
 #exo10
 a= 'strong'
@@ -59,3 +64,7 @@ print(age_question.split(' '))
 print(a, b, c, question, age_question)
 
 #exo12
+name= 'Amine'
+age= '25'
+hello = f'Hello, {name}. You are {age}'
+print(hello)
