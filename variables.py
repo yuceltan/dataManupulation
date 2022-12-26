@@ -68,3 +68,19 @@ name= 'Amine'
 age= '25'
 hello = f'Hello, {name}. You are {age}'
 print(hello)
+
+#Operators
+#exo 1
+a = True
+b= False
+print(False and True) # Should print False
+
+#exo 2
+print(False or (0 != 0 or True)) # Should print True
+
+#exo 3
+5 % 2
+
+#exo4
+print(not ("testing" == "testing" and "Mario" == "Cool Guy")) # Should print True
+
