@@ -101,3 +101,39 @@ print("Nike" in brands) # Should print True
 brands = ["Adidas", "Nike"]
 
 print("Reebok" not in brands) # Should print True
+
+#methods
+#exo1
+print(type("Hello World"))
+print(type(True))
+print(type(False))
+print(type(33))
+print(type(24.5))
+print(type(4+1j))
+print(type(4j))
+print(type(["lion", "monkey", "dog","fish"]))
+print(type(("lion", "monkey", "dog","fish")))
+print(type({"name" : "John", "surname" : "Doe", "age":22}))
+print(type({"lion", "monkey", "dog","fish"}))
+#exo2
+num1 = 1.3
+num1 = float(num1)
+print(float(num1))
+print(type(num1))
+num2 = 2.3
+num2 = int(num2)
+print(int(num2))
+print(type(num2))
+num3 = 1j 
+num3 = complex(num3)
+print(complex(num3))
+print(type(num3))
+num4 = 1.4 
+num4 = round(num4)
+print(round(num4))
+print(type(num4))
+num5 = 1.5
+num5 = round(num5)
+print(round(num5))
+print(type(num5))
+#exo3
