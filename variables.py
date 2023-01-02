@@ -138,7 +138,6 @@ print(round(num5))
 print(type(num5))
 
 #exo3
-to convert a number to string we can use str() function this is called casting
 num1 = 1122334455666
 str(num1)
 num1_str=str(num1)
