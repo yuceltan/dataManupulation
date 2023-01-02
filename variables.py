@@ -160,3 +160,44 @@ if num1 > num2:
     print(f"{num1} is greater than {num2}")
 else:
     print(f"{num1} is not greater than {num2}")
+
+#exo2
+number1 = 66
+number2 = 66
+
+if number1 > number2:
+    print(f"{number1} is greater than {number2}")
+elif number1 < number2:
+    print(f"{number2} is greater than {number1}")    
+else:
+    print(f"{number1} equals to {number2}")
+
+#exo3
+import random
+
+number1 = random.randint(1,100)
+number2 = random.randint(1,100)
+
+# Compare the numbers to eachother 
+if number1 > number2:
+    print(f"{number1} is greater than {number2}")
+    
+elif number1 < number2:
+    print(f"{number2} is greater than {number1}")       
+else:
+    print(f"{number1} equals to {number2}")
+
+#exo4
+import random
+
+number1 = random.randint(-100,100)
+number2 = random.randint(-100,100)
+
+if abs(number1) > abs(number2):
+    print(f"{number1} is greater than {number2}")
+    
+elif abs(number1) < abs(number2):
+    print(f"{number2} is greater than {number1}")       
+else:
+    print(f"{number1} equals to {number2}")
+    
