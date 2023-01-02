@@ -194,10 +194,10 @@ number1 = random.randint(-100,100)
 number2 = random.randint(-100,100)
 
 if abs(number1) > abs(number2):
-    print(f"{number1} is greater than {number2}")
+    print(f"the absolute value of{number1} is greater than the absolute value of{number2}")
     
 elif abs(number1) < abs(number2):
-    print(f"{number2} is greater than {number1}")       
+    print(f"the absolute value of{number2} is greater than the absolute value of{number1}")       
 else:
-    print(f"{number1} equals to {number2}")
+    print(f"the absolute value of{number1} equals to the absolute value of{number2}")
     
