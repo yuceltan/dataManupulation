@@ -136,4 +136,18 @@ num5 = 1.5
 num5 = round(num5)
 print(round(num5))
 print(type(num5))
+
 #exo3
+to convert a number to string we can use str() function this is called casting
+num1 = 1122334455666
+str(num1)
+num1_str=str(num1)
+len(num1_str)
+num1_str.find('2')
+print(num1_str[3:5])
+
+string_with_0='0'+ num1_str
+print(num1_str[0:4])
+print(num1_str[5:])
+print(num1_str[5:])
+print(string_with_0[-4:-1])
