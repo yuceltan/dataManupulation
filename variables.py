@@ -150,3 +150,13 @@ print(num1_str[0:4])
 print(num1_str[5:])
 print(num1_str[5:])
 print(string_with_0[-4:-1])
+
+#if statments
+#exo1
+
+num1 = 335
+num2 = 66
+if num1 > num2:
+    print(f"{num1} is greater than {num2}")
+else:
+    print(f"{num1} is not greater than {num2}")
