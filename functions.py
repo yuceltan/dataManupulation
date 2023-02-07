@@ -78,3 +78,13 @@ goodbye('Adam')
 import os
 user = os.getlogin()
 print(user)
+
+#exo9
+def greet_family(name="John", surname="Doe", family=[]):
+    print(f"Hello {name} {surname}!")
+    for member in family:
+        print(f"Hello {member[0]} {member[1]}!")
+
+family_members = [("Tristram", "Mcbride"), ("Baldwin", "Preston"), ("Wally", "Collins")]
+greet_family(family=family_members)
+
