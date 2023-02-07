@@ -68,3 +68,8 @@ print("Updated dict1:", dict1)
 def goodbye():
     print('good bye')
 goodbye()
+
+#exo 7
+def goodbye(name):
+    print(f"Good bye {name}")
+goodbye('Adam')
