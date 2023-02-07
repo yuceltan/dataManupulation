@@ -88,3 +88,10 @@ def greet_family(name="John", surname="Doe", family=[]):
 family_members = [("Tristram", "Mcbride"), ("Baldwin", "Preston"), ("Wally", "Collins")]
 greet_family(family=family_members)
 
+#exo10
+import random
+def random_list_summer(n=15, min_value=-100, max_value=100):
+    numbers = [random.randint(min_value, max_value) for i in range(n)]
+    print("List: ", numbers)
+    print("Sum: ", sum(numbers))
+random_list_summer()
