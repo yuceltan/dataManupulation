@@ -73,3 +73,8 @@ goodbye()
 def goodbye(name):
     print(f"Good bye {name}")
 goodbye('Adam')
+
+#exo8
+import os
+user = os.getlogin()
+print(user)
