@@ -95,3 +95,15 @@ def random_list_summer(n=15, min_value=-100, max_value=100):
     print("List: ", numbers)
     print("Sum: ", sum(numbers))
 random_list_summer()
+
+#exo11
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+for i in range(5):
+    print(fibonacci(i))
