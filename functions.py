@@ -64,4 +64,7 @@ print("Updated list1:", list1)
 dict1["fish"] = 2
 print("Updated dict1:", dict1)
       
-
+#exo6
+def goodbye():
+    print('good bye')
+goodbye()
