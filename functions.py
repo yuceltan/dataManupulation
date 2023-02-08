@@ -113,3 +113,41 @@ result = list(map(lambda x: x**2
                   if x % 2 == 0 
                   else x, numbers))
 print(result)
+
+##OBBJECTS
+#Exo1
+class Animal:
+    def __init__(self, legs):
+        self.legs = legs
+        print("Animal object was created")
+        
+    def run(self):
+        print("Running started")
+
+animal = Animal(4)
+animal.run()
+
+
+#exo2
+class Animal:
+    def __init__(self, legs):
+        self.legs = legs
+        print("Animal object was created")
+        
+    def run(self):
+        print("Running started")
+        
+    def count_legs(self):
+        print("Number of legs:", self.legs)
+        
+    def return_legs(self):
+        return self.legs
+
+animal = Animal(4)
+animal.run()
+animal.count_legs()
+number_of_legs = animal.return_legs()
+print("Number of legs:", number_of_legs)
+
+
+#exo3
