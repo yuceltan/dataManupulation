@@ -176,3 +176,41 @@ animal.count_legs()
 legs = animal.return_legs()
 print("Number of legs:", legs)
 print("Number of legs (using get_leg_count method):", animal.get_leg_count())
+
+
+#exo4
+class Animal:
+    def __init__(self, leg_count):
+        self._leg_count = leg_count
+        print("Animal object was created.")
+
+    def run(self):
+        print("Running started.")
+
+    def count_legs(self):
+        print("Number of legs:", self._leg_count)
+
+    def return_legs(self):
+        return self._leg_count
+
+    def get_leg_count(self):
+        return self._leg_count
+
+class Dog(Animal):
+    def __init__(self, name, leg_count):
+        Animal.__init__(self, leg_count)
+        self._name = name
+
+    def bark(self):
+        print("Woof Woof!")
+
+    def get_name(self):
+        return self._name
+
+dog = Dog("Max", 4)
+print("Name of dog:", dog.get_name())
+dog.bark()
+dog.count_legs()
+legs = dog.return_legs()
+print("Number of legs:", legs)
+print("Number of legs (using get_leg_count method):", dog.get_leg_count())
