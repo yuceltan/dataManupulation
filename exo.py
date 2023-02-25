@@ -5,7 +5,7 @@ df = pd.read_csv('/Users/pc home/Downloads/googleplaystore.csv')
 # Drop duplicates
 df.drop_duplicates(subset='App', inplace=True)
 
-# Drop rows with missing values
+# Drop rows with missing values:
 df.dropna(inplace=True)
 
 # Convert 'Reviews', 'Size', and 'Installs' columns to numerical values
