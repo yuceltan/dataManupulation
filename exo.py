@@ -29,4 +29,4 @@ df['Genres'] = df['Genres'].apply(lambda x: x.split(';')[0])
 df.reset_index(drop=True, inplace=True)
 
 # Save cleaned dataset to a new CSV file
-df.to_csv('cleaned_googleplaystore1.csv', index=False)
+df.to_csv('cleaned_googleplaystore.csv', index=False)
